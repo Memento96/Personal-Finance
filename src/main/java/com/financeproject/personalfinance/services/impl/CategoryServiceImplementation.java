@@ -2,9 +2,11 @@ package com.financeproject.personalfinance.services.impl;
 
 import com.financeproject.personalfinance.entities.Category;
 import com.financeproject.personalfinance.services.CategoryService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class CategoryServiceImplementation implements CategoryService {
     @Override
     public Category createCategory(Category category) {

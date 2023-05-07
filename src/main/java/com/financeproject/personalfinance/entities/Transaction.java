@@ -2,10 +2,12 @@ package com.financeproject.personalfinance.entities;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
+import lombok.Data;
 import org.springframework.data.annotation.Id;
 
 import java.time.LocalDate;
 
+@Data
 public class Transaction {
 
     @Id
