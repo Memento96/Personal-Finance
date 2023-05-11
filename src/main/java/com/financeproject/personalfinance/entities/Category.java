@@ -14,7 +14,7 @@ public class Category {
     private Long id;
 
     @Column(name = "category_name")
-    private String name;
+    private String categoryName;
 
     @Column(name = "category_description")
     private String categoryDescription;
@@ -34,5 +34,8 @@ public class Category {
 
     @Column(name = "priority_level")
     private String priorityLevel;
+
+    @Column(name = "is_deleted")
+    private Boolean isDeleted;
 
 }
